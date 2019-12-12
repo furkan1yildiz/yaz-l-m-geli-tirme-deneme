@@ -1,6 +1,6 @@
   
 language : java
-script : "mvn -f OrnekMavenProje/pom.xml clean install cobertura:cobertura"
+script : "mvn -f finalders4/pom.xml clean install cobertura:cobertura"
 jdk: 
    - openjdk8
 after_success:
